@@ -1,0 +1,50 @@
+[
+  {
+	"id": 4,
+	"name": "Recommendation 4",
+	"text": "Try harder on this simulation.",
+	"conditions": [
+	  {
+		"skillID": 22,
+		"scoreThreshold": 75
+	  }
+	]
+  },
+  {
+	"id": 3,
+	"name": "Recommendation 3",
+	"text": "Wow you're really doing bad! You should go back and do it again.",
+	"conditions": [
+	  {
+		"skillID": 22,
+		"scoreThreshold": 20
+	  }
+	]
+  },
+  {
+	"id": 1,
+	"name": "Recommendation 1",
+	"text": "Try an get better then a 95!",
+	"conditions": [
+	  {
+		"skillID": 22,
+		"scoreThreshold": 95
+	  },
+	  {
+		"skillID": 23,
+		"scoreThreshold": 95
+	  }
+	]
+  },
+  {
+	"id": 2,
+	"name": "Recommendation 2",
+	"text": "Try again.",
+	"conditions": [
+	  {
+		"skillID": 24,
+		"scoreThreshold": 75
+	  }
+	]
+  }
+]
