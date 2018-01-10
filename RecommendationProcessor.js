@@ -11,6 +11,8 @@ var RecommendationProcessor = {
 	 */
 	start: function (recommendations) {
 		//Initialize RecommendationProcessor.storage here
+		this.storage = new RecStorage(recommendations);
+		console.log(this.storage.recommendations);
 	},
 
 	/**
@@ -31,6 +33,10 @@ var RecommendationProcessor = {
 			- Old recommendations should be unassigned
 			- Nothing needs to be returned, just alter the users array that is passed in.
 		 */
+		 users.forEach((user) => {
+			 this.storage.determineRecommendations(user);
+			 this.storage.determineGoals(user);
+		 })
 	},
 
 	/**

@@ -62,7 +62,6 @@ window.onload = function () {
             ]
         }
     ];
-
     /** Recommendations to pass to the RecommendationProcessor */
     var recommendations = [
         {
